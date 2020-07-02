@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1360
     height: 755
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -92,10 +92,10 @@ MonoBehaviour:
     y: 30
     width: 1360
     height: 705
-  m_MinSize: {x: 708, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 18
+  controlID: 124
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 81
+  controlID: 61
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,8 +190,8 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 705
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -277,26 +277,9 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: -7941851455777324347, guid: 9222fd2e6640f544292c98caa7d8c006, type: 2}
     - {fileID: 110787584, guid: d1a67fe3f9f53264fa240cdce010e352, type: 2}
     - {fileID: 110729770, guid: 639b93d63b648ea4c9a496cf690f7570, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
     - e00: 0.47689074
       e01: 0
       e02: 0
@@ -449,20 +432,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\108-2\Unity\Unity_Tutorial_VuforiaARGame\ARGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c430000
-    m_LastClickedID: 17260
-    m_ExpandedIDs: 00000000123c0000a2430000a4430000a643000000ca9a3b
+    m_SelectedIDs: 9c4d0000
+    m_LastClickedID: 19868
+    m_ExpandedIDs: 000000009c4d0000a04d0000ae4d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -490,7 +473,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000009c4d00009e4d0000a04d0000a24d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,9 +654,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.8443162, y: 0.3444847, z: -0.80479646}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 1.8443162, y: 0.3444847, z: -0.80479646}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -719,13 +702,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.07009975, y: 0.03859224, z: -0.002713866, w: -0.99678993}
+    m_Target: {x: -0.07033226, y: 0.6739182, z: -0.06469874, w: -0.7326052}
     speed: 2
-    m_Value: {x: -0.06710904, y: 0.038600195, z: -0.0025980761, w: -0.99699533}
+    m_Value: {x: -0.070137545, y: 0.67611, z: -0.06490917, w: -0.730577}
   m_Size:
-    m_Target: 6.790412
+    m_Target: 47.186672
     speed: 2
-    m_Value: 7.1103787
+    m_Value: 43.290524
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -781,7 +764,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e0b8fffffcb8fffffeb8ffff66beffff82beffff84beffff10c5ffff2cc5ffff2ec5ffff86c7ffffa2c7ffffa4c7ffffecc8ffff08c9ffffaecaffffb8deffff86f0ffffe6f0ffff38fbffff325200001a5e0000f05e0000b063000084640000e0690000b46a0000
+      m_ExpandedIDs: 44c2ffff60c2ffff62c2ffff70c8ffff08c9ffff24c9ffffcccaffffb4cfffffd6cfffff22d0ffff96d1ffffb2d1ffff56d3ffff32d9ffff504d0000624d000054590000b8590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
